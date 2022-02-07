@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    padding: 10px ;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+   
+    
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.container .navbar a{
+    text-decoration: none;
+    margin-left: 10px;
+    color: aliceblue;
+}
+#phone-header{
+    display: none;
+}
+@media(max-width:576px){
+header{
+    display: none;
+}
+#phone-header{
+    display: block;
+}
+#phone-header{
+    background-color: black;
+    padding: 20px 0;
+}
+#phone-header a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: aliceblue;
+}
+#phone-header i{
+color:aliceblue;
+}
+#phone-header .container{
+    display: flex;
+    justify-content: space-between;
+}
+}
+#second{
+    background-color: black;
+    padding: 40px 0;
+    color: white;
+
+}
+#second h1{
+    font-size: 3rem;
+    text-align: left;
+    
+    margin-bottom: 10px;
+}
+#second p{
+    font-size: 32px;
+    margin-bottom: 25px;
+   
+}
+#second a{
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 0.3rem;
+    padding: 0.5rem 1rem;
+    margin: 10px;
+    color: white;
+}
+#second .container .intro{
+    display: flex;
+    justify-content: space-between;
+ 
+    
+}
+#second .container .left .btn{
+    background-color: blue;
+}
+#second .container .left{
+    width: 60%;
+    margin: auto;
+}
+#second .container .right{
+    width: 40%;
+    text-align: right;
+}
+#second .container .right img{
+    width: 80%;
+}
